@@ -1,20 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<a lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"><!--meta tags-->
+
     <meta name="description" content="This is a test website">
+    <meta name="author" content="Steph">
+    <meta name="keywords" content=" test, tutorials, steph">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" <!--this allows scaling on mobile devices-->
+
     <title>Steph's website</title>
 </head>
-<body>
+<br style="background-color:lightgrey"> <!--how to style your html-->
+    <header>
+        <nav> <!-- the nav tag for navigation menu-->
 
-    <h2> Stephen's website</h2>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <article> <!-- for article inputs-->
+            <section> <!-- include a header for the section-->
+                <h3> header for section </h3>
+                    <aside> </aside> <!-- especially vital for ads or links to other pages like social media-->
+
+            </section>
+
+        </article>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+    <h2 style="color:white;background-color:black"> Stephen's website</h2>
     <br/>
     <hr/><hr/>
-    <p><big>This</big> is my new <small>paragraph</small> for my new website</p>
+    <p style="color:blue;background-color:grey"><big>This</big> is my new <small>paragraph</small> for my new website</p>
     <p>This is a new <b><i>paragraph</i></b> which will be in my website</p>
-    <p> this is a new line with <i>italicized</i> text for my new website</p>
-    <p>H<sub>2</sub>O</sub></p>
-    <p>10<sup>2</sup></p>
+    <p> this is a new line with <i>italicized</i> text for my new website</p> <!--for paragraphs-->
+    <p>H<sub>2</sub>O</sub></p> <!-- to print subscripts-->
+    <p>10<sup>2</sup></p> <!--to print superscripts-->
+    <h1> Papers on phage evolution</h1>
+        The are many publications on Phage evolution in bacteria. Here are some:
+    <br>
+        <li>"Rapid evolution of generalized resistance mechanisms can constrain the efficacy of phage–antibiotic treatments"</li>
+        <li>"Co-evolution with lytic phage selects for the mucoid phenotype of Pseudomonas fluorescens SBW25"</li>
+        <li>"Experimental coevolution with bacteria and phage The Pseudomonas fluorescens—F2 model system"</li>
+        <li>"Contrasted coevolutionary dynamics between a bacterial pathogen and its bacteriophages"</li>
+
+
+<hr/>
+
+        <a href="https://www.google.com/"><h3> Google homepage</h3></a> <!-- adding links to websites-->
+        <a href="https://www.google.com/"target="_blank"><h3> Google homepage opens in new tab </h3></a> <!--to open in a new tab-->
+        <a href="HTML test.html"><h3> links to other personal web pages </h3></a>
+        <a href="dir1/page 3 for test.html"> this links to page 3 in a new directory</a><br>
+        <a href="rick and morty.png"> Rick and morty</a></br>
+
+            <img src="https://www.google.com/search?q=rick+and+morty&sxsrf=ALeKk02yTHjMJo2kUjL__ZdFQVRzTvWuWw:1597332454859&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi5gr2Mv5jrAhWPp4sKHQdKAVwQ_AUoAXoECB8QAw&biw=720&bih=887#imgrc=0zuwsillt_j8FM" alt="get swifty"/><br>
+            <a href="https://www.netflix.com/browse">
+            <img width="160" height="120" src="rick and morty.png" alt=" rick and morty"/></a></br><!--maintain aspect ratio of images-->
+<!-- to add an image to a website, the alt is displayed when the image is not available-->
+
+
+
+
+            <video src="videoplayback.mp4" poster="rick and morty.png" autoplay controls width="500"></video>
+    <!--<video src="videoplayback.mp4" poster="rick and morty.png" autoplay loop controls width="500"></video>-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BSF5yoD-vC4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr/>
+
+            <ul>
+                <a><a href="https://www.apple.com/"> apples</a></li>
+                <li>banana</li>
+                <li> oranges</li>
+            </ul>
+            <ol type="A">
+                <li><a href="https://www.apple.com/">apples</a></li>
+                <li>banana
+                    <ol>
+                        <li>items</li>
+                        <li>item 2</li>
+                    </ol>
+                </li>
+                <li> oranges</li>
+            </ol>
+<hr/>
+<!-- to parse in descriptive list of items-->
+        <dl>
+            <dt> Apples </dt>
+            <dd>-they are red</dd>
+            <dt> oranges</dt>
+            <dd>-they are orange</dd>
+        </dl>
+
+<hr/>
+    <!--tables in HTML-->
+        <table>
+            <thead>
+                <caption><h2>List of numbers</h2></caption>
+                <tr>
+                    <th>num2</th>
+                    <th>num2</th>
+                    <th>num3</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                     <!--<td colspan="2">one</--td> ###The colspan="2" is used the adjust the space occupied by the data-->
+                     <td>one</td>
+                     <td>two</td>
+                     <td>three</td>
+                     <td>first row of numbers</td>
+                 </tr>
+                <tr>
+                     <td>four</td>
+                     <td>five</td>
+                     <td>six</td>
+                </tr>
+            </tbody>
+        </table>
+<hr/>
+
+    <!--containers: divs and span-->
+        <a href="#"> link1</a> <!-- examples of inline elements-->
+        <a href="#"> link2</a>
+
+        <p>paragraph1</p> <!-- block elements take up the entire width of the page-->
+        <p>paragraph2</p> <!--spans are inline elements, divs are block elements-->
+    <hr/>
+        <span> span 1</span>
+        <span> span 2</span>
+
+        <div>div 1</div>
+        <div>div 2</div>
+<hr/>
+
+    <!--input tags in HTML-->
+        <input type="text" value="enter your username"/>
+        <input type="password"/> <!-- also you chose the ff types : file, email,date,range,-->
+        <input type="submit"/>
+
+        <input type="checkbox"/>   <!-- differences between a checkbox and radio button-->
+        <input type="checkbox"/>
+
+         <input name= "btn" type="radio"/>
+         <input name= "btn" type="radio"/>
+
+        <textarea rows="10 cols=15">enter text in this area</textarea>
+
+        <form>
+            <input type="submit"/>
+        </form>
+
+<hr/>
+ <!--IFRAME TO EMBED ANOTHER WEBSITE IN YOUR WEBSITE-->
+        <iframe src="https://www.ncbi.nlm.nih.gov/" frameborder="0" width="1000" height="500"> sorry page not available</iframe>
+
+
+
+
 
 </body>
 </html>
